@@ -1,0 +1,33 @@
+
+.text-wrapper{
+    padding-top: 2rem;
+}
+
+.text-content{
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 1.8rem;
+    text-align: justify;
+    width:70%;
+}
+
+
+.company-name{
+    color:var(--blue-l);
+    font-size: larger;
+}
+
+.parag {
+    text-align: center;
+    width: 70%;
+}
+
+@media screen and (max-width:960px){
+    .parag{
+        width:90vw;
+    }
+}

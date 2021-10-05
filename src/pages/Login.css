@@ -1,0 +1,80 @@
+#login{
+    display:flex;
+    justify-content: center;
+}
+
+#login > .btn-section{
+    position:absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.login-container{
+    position:absolute;
+    top: 20vh;
+    height: 50vh;
+    width: 20vw;
+    
+    background-color: rgba(var(--purple-rgb), 0.6);
+    border-radius: 10%;
+}
+
+.login-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    display:block;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid var(--dark);
+    color: var(--light);
+}
+
+::placeholder {
+    color: rgba( var(--light-rgb), 0.5);
+    opacity: 1;
+}
+
+input:focus{
+    border:none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid var(--purple);
+    box-shadow: 5px 5px  10px var(--purple);
+}
+
+label {
+    display:block;
+    margin: 2rem 0;
+    letter-spacing: 2px;
+}
+
+.login-btn{
+    position: absolute;
+    bottom: 20%;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--dark);
+    
+    border-radius: 20px;
+    background-color: rgba(var(--light-rgb),0.5);
+}
+
+
+.login-btn:hover{
+    color: var(--light);
+}
+
+.register-invitation{
+    color: var(--light);
+    text-decoration: none;
+}
+
+.register-invitation:hover{
+    color: var(--blue-l)
+}

@@ -1,0 +1,58 @@
+.signup-wrapper{
+    height:100vh;
+    width:100%;
+    background-color: rgba(var(--purple-rgb), 0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.signup-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 2rem;
+    
+    filter:opacity(1);
+    z-index: 1;
+}
+
+.signup-headers{
+    text-align: center;
+}
+
+.signup-header{
+    text-transform: uppercase;
+    color: var(--blue-l);
+    letter-spacing:2px;
+}
+
+.signup-header,
+.signup-sub-header{
+    padding:0;
+    margin:auto;
+    margin-top:0;
+}
+
+
+.signup-content{
+    width: 70%;
+}
+
+.signup-parag{
+    text-align: center;
+    
+    font-size: 1.2rem;    
+}
+
+.btn-section{
+    margin:auto    
+}
+
+@media screen and (max-width:960px){
+    .signup-container{
+        width:80%;
+    }
+}

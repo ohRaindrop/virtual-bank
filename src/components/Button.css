@@ -1,0 +1,49 @@
+@import url(../App.css);
+
+.btn{
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    cursor:pointer;
+}
+
+.btn--primary{
+    
+}
+
+.btn--outline-gradient{
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.btn--outline{
+    background-color:transparent;
+    color: var(--blue);
+    padding: 3px;
+    border: 1px solid var(--blue);
+    transition: all 0.3s ease-out;
+}
+
+.btn--medium{
+    padding: 0.5rem 2rem;
+    font-size: 20px;
+}
+
+.btn--large{
+    padding: 1rem 2rem;
+    font-size: 30px;
+}
+
+.btn--medium:hover, 
+.btn--large:hover{
+    background: var(--blue);
+    color: var(--light);
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline-gradient:hover{
+    background: linear-gradient(90deg, var(--blue) 0%, var(--purple) 100%); 
+    transition: all 0.5s ease-out;
+}
+
